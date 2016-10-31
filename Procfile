@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/Geofence.Demo-1.0-SNAPSHOT.war
+web:    java -war target/Geofence.Demo-1.0-SNAPSHOT.war
