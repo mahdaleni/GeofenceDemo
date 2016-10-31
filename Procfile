@@ -1,1 +1,1 @@
-web:    java -war target/Geofence.Demo-1.0-SNAPSHOT.war
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* Geofence.Demo
